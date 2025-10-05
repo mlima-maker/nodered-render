@@ -1,0 +1,12 @@
+{
+  "name": "nodered-render",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node-red -p $PORT --userDir ./data --ip 0.0.0.0"
+  },
+  "dependencies": {
+    "node-red": "^4.0.2"
+  }
+}
